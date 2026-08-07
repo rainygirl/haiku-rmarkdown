@@ -1,0 +1,26 @@
+resource app_signature "application/x-vnd.RMarkdown";
+
+resource app_flags B_SINGLE_LAUNCH;
+
+resource app_version {
+	major  = 1,
+	middle = 0,
+	minor  = 0,
+	variety = B_APPV_FINAL,
+	internal = 0,
+	short_info = "R Markdown",
+	long_info  = "A Markdown editor that styles the text in place."
+};
+
+/* Markdown icon, HVIF: a page with a folded corner carrying a
+   pair of asterisks -- the ** that marks bold. Flat shapes and
+   straight edges only, which is what survives being drawn at 16
+   pixels in the Deskbar. */
+resource(101, "BEOS:ICON") #'VICN' array {
+	$"6E6369660501CDCDD7FF01FAFAF8FF01D0D0CAFF0146464EFF012D69AFFF080A"
+	$"082B2155215F2B5F55555F2B5F2155212B0A052D274B27553155592D590A034B"
+	$"2755314B310A0433374F374F3A333A0A04333D4F3D4F4033400A0433514F514F"
+	$"5433540A0C3A3E384433433747334B384A3A503C4A414B3D4741433C440A0C48"
+	$"3E464441434547414B464A48504A4A4F4B4B474F434A44050A000100000A0101"
+	$"01000A020102000A0303030405000A0402060700"
+};
