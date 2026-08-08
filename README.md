@@ -1,3 +1,5 @@
+<img src="icon.png" width="64" align="left" alt="">
+
 # R Markdown for Haiku OS
 
 [한국어](README.ko.md)
